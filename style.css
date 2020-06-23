@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+#logo{
+	width: 300px;
+	height: 300px;
+}
+
+.jumbotron {
+	background-color: white;
+}
+
+#carouselExampleIndicators{
+	margin-bottom: 50px; 
+}
+
+.projects {
+	padding-left: 100px;
+}
+
+#main-image {
+	
+	width: 300px;
+	height: 300px;
+	margin-top: 50px;
+	margin-left: 42px;
+}
+
+.aboutme {
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.bio{
+	margin-bottom: 50px;
+}
+
+#btn1 {
+	margin-left: 50px;
+}
+
+#contact {
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+html {
+	font-family: 'Lato', sans-serif;
+}
+
+

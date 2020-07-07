@@ -5,10 +5,6 @@
 	height: 300px;
 }
 
-.jumbotron {
-	background-color: white;
-}
-
 
 
 .projects {
@@ -21,6 +17,31 @@
 	height: 300px;
 	margin-top: 50px;
 	margin-left: 42px;
+	animation-name: bio;
+	animation-duration: 4s;
+	animation-iteration-count: 20;
+	margin-bottom: 30px;
+
+}
+
+
+.jumbotron {
+	background-color: gray;
+	transition-property: all;
+	transition-duration: 4s;
+}
+
+.jumbotron:hover {
+	border-radius: 20%;
+
+}
+
+
+
+@keyframes bio {
+	100% {
+		transform: rotateY(180deg);
+	}
 }
 
 .aboutme {

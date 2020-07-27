@@ -13,8 +13,9 @@
 
 #main-image {
 	
-	width: 300px;
-	height: 300px;
+	width: 90%;
+	height: 30rem;
+	min-height: 20vh;
 	margin-top: 50px;
 	margin-left: 42px;
 	animation-name: bio;
@@ -24,18 +25,24 @@
 
 }
 
+.projects {
+	text-align: center;
+}
 
-.jumbotron {
-	background-color: gray;
+.topclass {
+	
 	transition-property: all;
 	transition-duration: 4s;
+	background-color: white;
 }
 
-.jumbotron:hover {
-	border-radius: 20%;
+.slidepics{
+	margin: 2rem;
+	display:flex;
+	justify-content: center;
+	align-content: center;
 
 }
-
 
 
 @keyframes bio {
@@ -45,12 +52,22 @@
 }
 
 .aboutme {
-	margin-bottom: 50px;
-	margin-top: 50px;
+	margin-bottom: 4rem;
+	margin-top: 4rem;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-content: center;
 }
 
 .bio{
-	margin-bottom: 50px;
+	margin-bottom: 4rem;
+	display: flex;
+	text-align: center;
+	margin: 1rem;
+	justify-content: center;
+	align-content: center;
+
 }
 
 #btn1 {
@@ -67,5 +84,49 @@ margin-bottom: 20px;
 	margin-top: 20px;
 }
 
+.services {
+	margin: 1rem;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	width: 30%;
+	flex-direction: column;
+	flex: 1 1 20rem;
+}
 
+.Tech {
+	margin: 1rem;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	width: 30%;
+	flex-direction: column;
+	flex: 1 1 20rem;
+	
+}
 
+.TechServices {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+#help {
+	text-align: center;
+}
+
+.contact-btn {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	
+	flex-direction: column;
+	margin: auto;
+}
+
+.endnotes {
+	text-align: center;
+	margin: 1rem;
+}
